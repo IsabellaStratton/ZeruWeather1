@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="response.css">
+
+
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Abel|News+cycle|Poiret+One|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function dropcopy(ev) {
+    ev.preventDefault();
+                    var data=ev.dataTransfer.getData("Text");
+                    var copyimg = document.createElement("img");
+                    var original = document.getElementById(data);
+                    copyimg.src = original.src;
+                    ev.target.appendChild(copyimg);
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("button1").click(function(){
+        $(".label1").css("width", "60vw");
+		$(".label1").css("margin-top", "2vw");
+		$("button1").css("font-size", "5vw");
+		$("#div1").css("max-width", "60vw");
+		$(".label1").css("margin-left", "10vw");
+
+
+    });});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("button2").click(function(){
+        $(".label2").css("width", "60vw");
+		$(".label2").css("margin-top", "2vw");
+		$("button2").css("font-size", "5vw");
+		$("#div1").css("max-width", "60vw");
+				$(".label2").css("margin-left", "13vw");
+
+
+
+    });});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("button7").click(function(){
+        $(".label7").css("width", "60vw");
+		$(".label7").css("margin-top", "2vw");
+		$("button7").css("font-size", "5vw");
+		$("#div1").css("max-width", "60vw");
+		$(".label7").css("margin-left", "13vw");
+
+    });});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("button3").click(function(){
+        $(".label3").css("width", "60vw");
+		$(".label3").css("margin-top", "2vw");
+		$("button3").css("font-size", "5vw");
+		$("#div1").css("max-width", "60vw");
+		$(".label3").css("margin-left", "13vw");
+
+    });});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("button4").click(function(){
+        $(".label4").css("width", "60vw");
+		$(".label4").css("margin-top", "2vw");
+		$("button4").css("font-size", "5vw");
+		$("#div1").css("max-width", "60vw");
+		$(".label4").css("margin-left", "13vw");
+
+    });});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("button5").click(function(){
+        $(".label5").css("width", "60vw");
+		$(".label5").css("margin-top", "2vw");
+		$("button5").css("font-size", "5vw");
+		$("#div1").css("max-width", "60vw");
+		$(".label5").css("margin-left", "13vw");
+
+    });});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("button6").click(function(){
+        $(".label6").css("width", "60vw");
+		$(".label6").css("margin-top", "2vw");
+		$("button6").css("font-size", "5vw");
+		$("#div1").css("max-width", "60vw");
+		$(".label6").css("margin-left", "13vw");
+
+    });});
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("button1").click(function(){
+		        $("p1").append("<b>12am</b> &nbsp;");
+        $("p1").append("<b>1am</b> &nbsp;");
+        $("p1").append("<b>2am</b> &nbsp;");
+        $("p1").append("<b>3am</b> &nbsp;");
+        $("p1").append("<b>4am</b> &nbsp;");
+        $("p1").append("<b>5am</b> &nbsp;");
+
+        $("p1").append("<b>6am</b> &nbsp;");
+
+        $("p1").append("<b>7am</b> &nbsp;");
+		        $("p1").append("<b >8am</b> &nbsp;");
+				
+        $("p1").append("<b>9am</b> &nbsp;");
+        $("p1").append("<b>10am</b> &nbsp;");
+        $("p1").append("<b>11am</b> &nbsp;");
+        $("p1").append("<b>12pm</b> &nbsp;");
+		$("p1").append("<b>1pm</b> &nbsp;");
+		$("p1").append("<b>2pm</b> &nbsp;");
+		$("p1").append("<b>3pm</b> &nbsp;");
+		$("p1").append("<b>4pm</b> &nbsp;");
+		$("p1").append("<b>5pm</b> &nbsp;");
+		$("p1").append("<b>6pm</b> &nbsp;");
+		$("p1").append("<b>7pm</b> &nbsp;");
+		$("p1").append("<b>8pm</b> &nbsp;");
+        $("p1").append("<b>9pm</b> &nbsp;");
+        $("p1").append("<b>10pm</b> &nbsp;");
+        $("p1").append("<b>11pm</b> &nbsp;");
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("button2").click(function(){
+		$("p2").append("<b>1am</b> &nbsp;");
+        $("p2").append("<b>2am</b> &nbsp;");
+        $("p2").append("<b>3am</b> &nbsp;");
+        $("p2").append("<b>4am</b> &nbsp;");
+        $("p2").append("<b>5am</b> &nbsp;");
+        $("p2").append("<b>6am</b> &nbsp;");
+
+        $("p2").append("<b>7am</b> &nbsp;");
+		        $("p2").append("<b >8am</b> &nbsp;");
+				
+        $("p2").append("<b>9am</b> &nbsp;");
+        $("p2").append("<b>10am</b> &nbsp;");
+        $("p2").append("<b>11am</b> &nbsp;");
+        $("p2").append("<b>12pm</b> &nbsp;");
+		$("p2").append("<b>1pm</b> &nbsp;");
+		$("p2").append("<b>2pm</b> &nbsp;");
+		$("p2").append("<b>3pm</b> &nbsp;");
+		$("p2").append("<b>4pm</b> &nbsp;");
+		$("p2").append("<b>5pm</b> &nbsp;");
+		$("p2").append("<b>6pm</b> &nbsp;");
+		$("p2").append("<b>7pm</b> &nbsp;");
+		$("p2").append("<b>8pm</b> &nbsp;");
+        $("p2").append("<b>9pm</b> &nbsp;");
+        $("p2").append("<b>10pm</b> &nbsp;");
+        $("p2").append("<b>11pm</b> &nbsp;");
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("button3").click(function(){
+		$("p3").append("<b>1am</b> &nbsp;");
+        $("p3").append("<b>2am</b> &nbsp;");
+        $("p3").append("<b>3am</b> &nbsp;");
+        $("p3").append("<b>4am</b> &nbsp;");
+        $("p3").append("<b>5am</b> &nbsp;");
+        $("p3").append("<b>6am</b> &nbsp;");
+
+        $("p3").append("<b>7am</b> &nbsp;");
+		        $("p3").append("<b >8am</b> &nbsp;");
+				
+        $("p3").append("<b>9am</b> &nbsp;");
+        $("p3").append("<b>10am</b> &nbsp;");
+        $("p3").append("<b>11am</b> &nbsp;");
+        $("p3").append("<b>12pm</b> &nbsp;");
+		$("p3").append("<b>1pm</b> &nbsp;");
+		$("p3").append("<b>2pm</b> &nbsp;");
+		$("p3").append("<b>3pm</b> &nbsp;");
+		$("p3").append("<b>4pm</b> &nbsp;");
+		$("p3").append("<b>5pm</b> &nbsp;");
+		$("p3").append("<b>6pm</b> &nbsp;");
+		$("p3").append("<b>7pm</b> &nbsp;");
+		$("p3").append("<b>8pm</b> &nbsp;");
+        $("p3").append("<b>9pm</b> &nbsp;");
+        $("p3").append("<b>10pm</b> &nbsp;");
+        $("p3").append("<b>11pm</b> &nbsp;");
+    });
+});
+</script><script>
+$(document).ready(function(){
+    $("button4").click(function(){
+		$("p4").append("<b>1am</b> &nbsp;");
+        $("p4").append("<b>2am</b> &nbsp;");
+        $("p4").append("<b>3am</b> &nbsp;");
+        $("p4").append("<b>4am</b> &nbsp;");
+        $("p4").append("<b>5am</b> &nbsp;");
+        $("p4").append("<b>6am</b> &nbsp;");
+        $("p4").append("<b>7am</b> &nbsp;");
+		        $("p4").append("<b >8am</b> &nbsp;");
+        $("p4").append("<b>9am</b> &nbsp;");
+        $("p4").append("<b>10am</b> &nbsp;");
+        $("p4").append("<b>11am</b> &nbsp;");
+        $("p4").append("<b>12pm</b> &nbsp;");
+		$("p4").append("<b>1pm</b> &nbsp;");
+		$("p4").append("<b>2pm</b> &nbsp;");
+		$("p4").append("<b>3pm</b> &nbsp;");
+		$("p4").append("<b>4pm</b> &nbsp;");
+		$("p4").append("<b>5pm</b> &nbsp;");
+		$("p4").append("<b>6pm</b> &nbsp;");
+		$("p4").append("<b>7pm</b> &nbsp;");
+		$("p4").append("<b>8pm</b> &nbsp;");
+        $("p4").append("<b>9pm</b> &nbsp;");
+        $("p4").append("<b>10pm</b> &nbsp;");
+        $("p4").append("<b>11pm</b> &nbsp;");
+    });
+});
+</script><script>
+$(document).ready(function(){
+    $("button5").click(function(){
+		$("p5").append("<b>1am</b> &nbsp;");
+        $("p5").append("<b>2am</b> &nbsp;");
+        $("p5").append("<b>3am</b> &nbsp;");
+        $("p5").append("<b>4am</b> &nbsp;");
+        $("p5").append("<b>5am</b> &nbsp;");
+        $("p5").append("<b>6am</b> &nbsp;");
+        $("p5").append("<b>7am</b> &nbsp;");
+		        $("p5").append("<b >8am</b> &nbsp;");
+        $("p5").append("<b>9am</b> &nbsp;");
+        $("p5").append("<b>10am</b> &nbsp;");
+        $("p5").append("<b>11am</b> &nbsp;");
+        $("p5").append("<b>12pm</b> &nbsp;");
+		$("p5").append("<b>1pm</b> &nbsp;");
+		$("p5").append("<b>2pm</b> &nbsp;");
+		$("p5").append("<b>3pm</b> &nbsp;");
+		$("p5").append("<b>4pm</b> &nbsp;");
+		$("p5").append("<b>5pm</b> &nbsp;");
+		$("p5").append("<b>6pm</b> &nbsp;");
+		$("p5").append("<b>7pm</b> &nbsp;");
+		$("p5").append("<b>8pm</b> &nbsp;");
+        $("p5").append("<b>9pm</b> &nbsp;");
+        $("p5").append("<b>10pm</b> &nbsp;");
+        $("p5").append("<b>11pm</b> &nbsp;");
+    });
+});
+</script><script>
+$(document).ready(function(){
+    $("button6").click(function(){
+		$("p6").append("<b>1am</b> &nbsp;");
+        $("p6").append("<b>2am</b> &nbsp;");
+        $("p6").append("<b>3am</b> &nbsp;");
+        $("p6").append("<b>4am</b> &nbsp;");
+        $("p6").append("<b>5am</b> &nbsp;");
+        $("p6").append("<b>6am</b> &nbsp;");
+
+        $("p6").append("<b>7am</b> &nbsp;");
+		        $("p6").append("<b >8am</b> &nbsp;");
+				
+        $("p6").append("<b>9am</b> &nbsp;");
+        $("p6").append("<b>10am</b> &nbsp;");
+        $("p6").append("<b>11am</b> &nbsp;");
+        $("p6").append("<b>12pm</b> &nbsp;");
+		$("p6").append("<b>1pm</b> &nbsp;");
+		$("p6").append("<b>2pm</b> &nbsp;");
+		$("p6").append("<b>3pm</b> &nbsp;");
+		$("p6").append("<b>4pm</b> &nbsp;");
+		$("p6").append("<b>5pm</b> &nbsp;");
+		$("p6").append("<b>6pm</b> &nbsp;");
+		$("p6").append("<b>7pm</b> &nbsp;");
+		$("p6").append("<b>8pm</b> &nbsp;");
+        $("p6").append("<b>9pm</b> &nbsp;");
+        $("p6").append("<b>10pm</b> &nbsp;");
+        $("p6").append("<b>11pm</b> &nbsp;");
+    });
+});
+</script><script>
+$(document).ready(function(){
+    $("button7").click(function(){
+		$("p7").append("<b>1am</b> &nbsp;");
+        $("p7").append("<b>2am</b> &nbsp;");
+        $("p7").append("<b>3am</b> &nbsp;");
+        $("p7").append("<b>4am</b> &nbsp;");
+        $("p7").append("<b>5am</b> &nbsp;");
+        $("p7").append("<b>6am</b> &nbsp;");
+
+        $("p7").append("<b>7am</b> &nbsp;");
+		        $("p7").append("<b >8am</b> &nbsp;");
+				
+        $("p7").append("<b>9am</b> &nbsp;");
+        $("p7").append("<b>10am</b> &nbsp;");
+        $("p7").append("<b>11am</b> &nbsp;");
+        $("p7").append("<b>12pm</b> &nbsp;");
+		$("p7").append("<b>1pm</b> &nbsp;");
+		$("p7").append("<b>2pm</b> &nbsp;");
+		$("p7").append("<b>3pm</b> &nbsp;");
+		$("p7").append("<b>4pm</b> &nbsp;");
+		$("p7").append("<b>5pm</b> &nbsp;");
+		$("p7").append("<b>6pm</b> &nbsp;");
+		$("p7").append("<b>7pm</b> &nbsp;");
+		$("p7").append("<b>8pm</b> &nbsp;");
+        $("p7").append("<b>9pm</b> &nbsp;");
+        $("p7").append("<b>10pm</b> &nbsp;");
+        $("p7").append("<b>11pm</b> &nbsp;");
+    });
+});
+</script>
+
+</head>
+
+
+<body style="background-color:#ffffff;">
+<script src="jquery.ui.touch-punch.min.js"></script>
+
+<div class="flex-container">
+<header class="container">
+
+
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+
+<div class="flex-container">
+<div class="row">
+
+<div class="col-3">
+   <div class="flex-item">
+
+    <a onclick="goBack()"> <img src="arrow.jpg" width="80vw" height="auto" style="margin-top:0.8vw"></a>
+
+	</div>
+</div>
+
+<div class="col-5">
+   <div class="center">
+    <h1 style="font-size:8vw; margin-bottom: 0vh; font-family: 'Poiret One', cursive; padding:0px;"> Weekly Schedule</h1>
+</div>
+</div>
+
+<div class="col-3">
+   <div class="flex-item">
+
+                 <div class="right padding-16" id="openweathermap-widget-23"></div>
+<script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 23,cityid: '2179537',appid: '5d7bc4e829eaceea159633ef671647e2',units: 'metric',containerid: 'openweathermap-widget-23',  });  (function() {var script = document.createElement('script');script.async = true;script.src = "https://openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+
+
+  </div>
+ 
+	</div>
+</div>
+
+</div>
+</div>
+
+  <hr />
+  
+        <style>
+body {
+  margin: 0;
+  font-family: PT Sans, sans-serif;
+  background-color: transparent;
+  color: #000;
+}
+
+p{ font-size:1.2vw;}
+
+.container {
+  margin: 3rem 0;
+   width: 100vw;
+   height: 30vw;
+  overflow: auto;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.container::-webkit-scrollbar {
+  height: 45px;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  background-clip: content-box;
+  border-radius: 100%;
+  border: 20px solid transparent;
+}
+
+.entries {
+  margin-right: -10000px;
+  margin-left: 1rem;
+}
+
+.timeline {
+  position: absolute
+  box-sizing: border-box;
+  width: 150vw;
+  height: 0.7rem;
+  background-color: beige;
+  background-clip: content-box;
+  border-width: 0.2rem 0;
+  border-style: solid;
+  border-color: #fff;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.1), inset 0 0 0.4em rgba(0, 0, 0, 0.1);
+}
+
+.entry {
+  float: left;
+  max-width: 150vw;
+  position: relative;
+  text-align: center;
+  margin: 1vw;
+  margin-top: 0;
+}
+.entry .dot {
+  position: relative;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: powderblue;
+  left: 50%;
+  margin-left: -0.6rem;
+  margin-top: -0.95rem;
+  border-radius: 100%;
+  box-sizing: border-box;
+  background-clip: content-box;
+  border-width: 0.16rem;
+  border-style: solid;
+  border-color: #fff;
+  box-shadow: 0 0.1rem 1rem 0 rgba(0, 0, 0, 0.1), inset 0 0 0.4em rgba(255, 255, 255, 0.1), inset 0 0.4rem 0.1rem rgba(255, 255, 255, 0.3);
+  -moz-transition: height 0.2s linear, width 0.2s linear, margin 0.2s linear, background-color 0.3s ease-out;
+  -o-transition: height 0.2s linear, width 0.2s linear, margin 0.2s linear, background-color 0.3s ease-out;
+  -webkit-transition: height 0.2s linear, width 0.2s linear, margin 0.2s linear, background-color 0.3s ease-out;
+  transition: height 0.2s linear, width 0.2s linear, margin 0.2s linear, background-color 0.3s ease-out;
+}
+
+
+.entry:hover .dot {
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-left: -0.8rem;
+  margin-top: -0.4rem;
+  background-color: thistle;
+}
+.entry:hover .label7 .label1 .label2 .label3 .label4 .label5 .label6{
+  margin-top: 1.5vw;
+  background-color: #d0e8e4;
+  border-bottom: 0.5rem solid transparent;
+}
+
+.label2, .label1, .label3, .label4, .label5, .label6, .label7{
+  display: inline-block;
+  width: 99vw;
+  position:relative;
+  overflow: scroll;
+  background-color: #E1F0EE;
+	margin-top: 1vw;
+	border-radius: 0.2rem;
+  -moz-transition: margin-top 0.2s linear, background-color 0.2s linear, border-bottom 0.2s linear;
+  -o-transition: margin-top 0.2s linear, background-color 0.2s linear, border-bottom 0.2s linear;
+  -webkit-transition: margin-top 0.2s linear, background-color 0.2s linear, border-bottom 0.2s linear;
+  transition: margin-top 0.2s linear, background-color 0.2s linear, border-bottom 0.2s linear;
+  border-bottom: 0 solid transparent;
+}
+
+.label2 .label1 .label3 .label4 .label5 .label6 .label7 .time {
+  text-transform: uppercase;
+  font-size: 1vw;
+  margin: 0 0 0.4rem;
+  padding: 0 0.3rem 0.3rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.label1 .label2 .label3 .label4 .label5 .label6 .label7 .detail{
+  font-size: 0.8rem;
+}
+
+.label2:before, .label1:before, .label3:before, .label4:before, .label5:before, .label6:before, .label7:before,  {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  background-clip: content-box;
+  box-sizing: border-box;
+  width: 1rem;
+  height: 1rem;
+  left: 50%;
+  margin-top: -0.9rem;
+  margin-left: -0.5rem;
+  transform-origin: center;
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  z-index: -1;
+}
+
+.label7 a, label1 a, label2 a, label3 a, label4 a, label5 a, label6 a{
+  color: #000;
+  text-decoration: none;
+}
+
+.entry.life .label7 .label5 .label6{
+  background-color: #e1f0e4;
+}
+
+.entry.life:hover .label7 .label5 .label6{
+  background-color: #d0e8d5;
+}
+
+.entry.study .label4, .label2 {
+  background-color: #e1e8f0;
+}
+
+.entry.study:hover .label4, .label2 {
+  background-color: #d0dbe8;
+}
+
+    </style>
+
+
+</header>
+
+<body>
+  
+    <div class="container1">
+          <h1 id="current-location">Location:</h1> 
+   
+    <h3 id="current-main">Temperature:</h3> 
+    <h3 id="current-main1">Pressure:</h3> 
+    <h3 id="current-main2">Humidity:</h3> 
+    <h3 id="current-wind">Wind Speed:</h3>
+    <h3 id="current-clouds">Cloud Coverage:</h3>
+    
+
+<div class="container">
+
+  <div class='timeline'>
+  </div>
+  
+    <div style="margin-left:3vw;" class='entry project'>
+      <div class='dot'></div>
+      <div class='label1' style="width: 11vw;">
+        <div class='time'>
+            <button1> Thursday</button1>
+        </div>
+        <p1></p1>
+   
+  <div id="div1" ondrop="dropcopy(event)" ondragover="allowDrop(event)" style="align-content: center"></div>
+      </div>
+    </div>
+    
+    <div class='entry study'>
+      <div class='dot'></div>
+      <div class='label2' style="width: 11vw;">
+        <div class='time'>
+          <button2>Friday</button2>
+        </div>
+        <p2></p2>
+  <div id="div1" ondrop="dropcopy(event)" ondragover="allowDrop(event)" style="align-content: center"></div>
+      </div>
+    </div>
+    
+    <div class='entry project'>
+      <div class='dot'></div>
+      <div class='label3' style="width: 11vw;">
+        <div class='time'>
+          <button3>Saturday</button3>
+        </div>
+                <p3></p3>
+
+  <div id="div1" ondrop="dropcopy(event)" ondragover="allowDrop(event)"></div>
+      </div>
+    </div>
+    
+    <div class='entry study'>
+      <div class='dot'></div>
+      <div class='label4' style="width: 11vw;">
+        <div class='time'>
+          <button4>Sunday</button4>
+        </div>
+                <p4></p4>
+
+  <div id="div1" ondrop="dropcopy(event)" ondragover="allowDrop(event)"></div>
+      </div>
+    </div>
+    
+    <div class='entry life'>
+      <div class='dot'></div>
+      <div class='label5' style="width: 11vw;">
+        <div class='time'>
+          <button5>Monday</button5>
+        </div>
+               <p5></p5>
+
+  <div id="div1" ondrop="dropcopy(event)" ondragover="allowDrop(event)"></div>
+
+      </div>
+    </div>
+    
+    <div class='entry study'>
+      <div class='dot'></div>
+      <div class='label6' style="width: 11vw;">
+        <div class='time'>
+          <button6>Tuesday</button6>
+        </div>
+               <p6></p6>
+
+  <div id="div1" ondrop="dropcopy(event)" ondragover="allowDrop(event)"></div>
+      
+      </div>
+    </div>
+    
+    <div class='entry life'>
+      <div class='dot'></div>
+      <div class='label7' style="width: 11vw;">
+        <div class='time'>
+          <button7>Wednesday</button7>
+        </div>
+                <p7></p7>
+
+  <div id="div1" ondrop="dropcopy(event)" ondragover="allowDrop(event)" style="color:#e1f0e4"></div>
+  
+      </div>
+    </div>
+		</div>
+ 
+    
+    </div>
+   
+    </div>
+  </div>
+</div>
+ 
+ 
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  
+<div class="homescreen">
+<div class="flex-container">
+<div class="row">
+
+ 
+  <div class="col-12 menu7"</div>
+<div class="col-1">
+</div>
+<div class="col-9">
+
+<p style="text-decoration:underline">Transport</p>
+<img id="drag19" src="png/car.png" alt="blah" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag3" src="png/bike.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag4" src="png/boat.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag44" src="png/swimming.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag45" src="png/taking off.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag46" src="png/taxi.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag47" src="png/train.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag48" src="png/tram.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag49" src="png/truck.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag51" src="png/walk.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag10" src="png/bus.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag26" src="png/motorbike.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag23" src="png/landing.png" alt="blah" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw"> 
+<img id="drag34" src="png/shuttle.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag35" src="png/rowing.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag36" src="png/run.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag12" src="png/child.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag52" src="png/wheelchair.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+
+<p style="text-decoration:underline">Places</p>
+<img id="drag6" src="png/beach.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag2" src="png/bed.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag7" src="png/building.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag8" src="png/building4.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag9" src="png/building3.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag53" src="png/business.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag54" src="png/work.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag40" src="png/shopping.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag37" src="png/school.png" draggable="true" ondragstart="drag(event)" width="60vw" height="60vw" hspace="7vw">
+<img id="drag39" src="png/shop.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag30" src="png/nature.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+
+<p style="text-decoration:underline">Actions/Hobbies</p>
+<img id="drag3" src="png/bike.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag44" src="png/swimming.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag51" src="png/walk.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag35" src="png/rowing.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag36" src="png/run.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag1" src="png/couch.png" draggable="true" ondragstart="drag(event)" width="60vw" height="60vw" hspace="7vw">
+<img id="drag38" src="png/seat.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag41" src="png/sofa.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag55" src="png/nothing.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag5" src="png/book.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag11" src="png/camera.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag13" src="png/clock.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag15" src="png/eat.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag16" src="png/explore.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag17" src="png/flower.png" alt="blah" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag18" src="png/gym.png" alt="blah" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag20" src="png/home.png" alt="blah" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag21" src="png/golf.png" alt="blah" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag22" src="png/drink.png" alt="blah" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag24" src="png/lightbulb.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag25" src="png/lightening.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag27" src="png/mountain.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag28" src="png/movie.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag29" src="png/music.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag31" src="png/paintbrush.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag32" src="png/pet.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag33" src="png/puzzle.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag50" src="png/tv.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+
+
+<img id="drag42" src="png/snow.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag43" src="png/sun.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+<img id="drag14" src="png/cloud.png" draggable="true" ondragstart="drag(event)" width="auto" height="60vw" hspace="7vw">
+  
+  </div>
+
+
+</div>
+   
+    </div>
+    
+     <div class="five-day">
+ 
+            </div>
+        
+      </div> 
+    </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script type="text/javascript" src="weat.js"></script>
+
+</div>
+</div>
+
+</body>
+    
+</html>
